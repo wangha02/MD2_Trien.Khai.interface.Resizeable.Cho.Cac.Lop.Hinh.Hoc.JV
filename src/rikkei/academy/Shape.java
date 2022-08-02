@@ -37,8 +37,6 @@ public abstract class Shape implements Resizeable {
                 + (isFilled() ? "filled" : "not filled");
     }
 
-    @Override
-    public void resize(double percent) {
+    public abstract double getArea();
 
-    }
 }

@@ -41,9 +41,4 @@ public class Circle extends Shape {
                 + " Area "
                 + getArea();
     }
-
-    @Override
-    public void resize(double percent) {
-    }
-
 }

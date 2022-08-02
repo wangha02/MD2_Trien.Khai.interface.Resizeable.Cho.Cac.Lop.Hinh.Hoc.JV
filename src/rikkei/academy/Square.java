@@ -1,6 +1,6 @@
 package rikkei.academy;
 
-public class Square extends Rectangle {
+public class Square extends Rectangle implements IColorable {
     public Square() {
     }
 
@@ -42,7 +42,7 @@ public class Square extends Rectangle {
     }
 
     @Override
-    public void resize(double percent) {
-        super.resize(percent);
+    public void howToColor() {
+        System.out.println("Color all four sides.");
     }
 }
